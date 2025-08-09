@@ -7,6 +7,12 @@ on:
   pull_request:
     branches: [ "main" ]
 
+# GitHub Pages 배포를 위한 권한 설정
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -42,11 +48,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# GitHub Pages 배포를 위한 권한 설정
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 # 동시 배포 방지
 concurrency:
