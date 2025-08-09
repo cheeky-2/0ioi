@@ -1,0 +1,19 @@
+.lookbook_wrap {}
+.lookbook_wrap .lookbook_title {width:1600px; margin:0 auto 30px;}
+.lookbook_wrap .lookbook_title h2 {font-size:1.5rem; font-weight:600;}
+.lookbook_wrap .swiper {width:1600px; margin:0 auto;}
+.lookbook_wrap .swiper-slide {
+    transition: transform 0.2s ease;
+    transform: scale(0.8);
+    opacity: 0.7;
+    display:flex; justify-content:center; align-items:center;
+}
+
+.lookbook_wrap .swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+}
+.lookbook_wrap .swiper-button-prev {background:url(../assets/images/icon/left_arrow.png) no-repeat center / cover; width:32px; height:32px; left:0px;}
+.lookbook_wrap .swiper-button-prev::after {display:none;}
+.lookbook_wrap .swiper-button-next {background:url(../assets/images/icon/right_arrow.png) no-repeat center / cover; width:32px; height:32px; right:0px;}
+.lookbook_wrap .swiper-button-next::after {display:none;}

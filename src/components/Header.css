@@ -1,0 +1,9 @@
+.header {display:flex; justify-content:space-between; padding:16px 60px; align-items:center; position:fixed; width:100%; top:0; z-index:900;}
+.header .left_nav {}
+.header .left_nav a {margin-right:32px; font-size:0.894rem;}
+.header .left_nav a:last-child {margin-right:0px;}
+.header h1 {}
+.header .right_nav {}
+.header .right_nav a {margin-right:32px; font-size:0.894rem;}
+.header .right_nav a:last-child {margin-right:0px;}
+.move {background-color:#fff;}

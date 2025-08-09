@@ -1,0 +1,12 @@
+.ambassador_wrap {}
+.ambassador_wrap h2 {font-size:1.5rem; font-weight:600; width:1600px; margin:0 auto;}
+.ambassador_wrap .ambassador_name {width:1600px; margin:20px auto 30px; display:flex; flex-flow:row nowrap;}
+.ambassador_wrap .ambassador_name button {font-size:0.938rem; font-weight:400; display:flex; flex-flow:row nowrap; align-items:center; margin-right:10px;}
+.ambassador_wrap .ambassador_name button:first-child {font-weight:600;}
+.ambassador_wrap .ambassador_name button::after {content:''; width:1px; height:12px; background-color:#e6e6e6; margin-left:10px;}
+.ambassador_wrap .ambassador_name button:last-child {}
+.ambassador_wrap .ambassador_name button:last-child::after {display:none;}
+.ambassador_wrap .swiper-button-prev {background:url(../assets/images/icon/left_arrow.png) no-repeat center / cover; width:32px; height:32px; left:78px;}
+.ambassador_wrap .swiper-button-prev::after {display:none;}
+.ambassador_wrap .swiper-button-next {background:url(../assets/images/icon/right_arrow.png) no-repeat center / cover; width:32px; height:32px; right:78px;}
+.ambassador_wrap .swiper-button-next::after {display:none;}

@@ -1,0 +1,6 @@
+.sale_product_wrap {width:1600px; margin:0 auto 80px;}
+.sale_product_wrap .title_more {margin-bottom:30px; display:flex; justify-content:space-between; align-items:end;}
+.sale_product_wrap .title_more h2 {width:max-content; margin:0; font-size:1.5rem; font-weight:600;}
+.sale_product_wrap .title_more a {display:flex; align-items:center;}
+.sale_product_wrap .title_more a em {font-size:0.75rem;}
+.sale_product_wrap .title_more a img {width:12px; height:12px;}
