@@ -8,7 +8,7 @@ import Ambassador from './components/Ambassador';
 import BandBanner from './components/BandBanner';
 import SaleProductWrap from './components/SaleProductWrap';
 import LookBook from './components/LookBook';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 function App() {
   useEffect(()=>{
     const aClick = (e)=>{
