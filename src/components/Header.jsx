@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import logo from '../assets/images/oioi_logo.png';
 import './Header.css';
+import { Link } from 'react-router-dom';
 function Header(){
     useEffect(() => {
         const handleScroll = () => {
@@ -28,7 +29,7 @@ function Header(){
                 <a href="#">AMBASSADOR</a>
                 <a href="#">O!Oi</a>
             </div>
-            <h1><a href='#'><img src={logo} alt="oioi" /></a></h1>
+            <h1><Link to='/'><img src={logo} alt="oioi" /></Link></h1>
             <div className="right_nav">
                 <a href="#">BENEFITS</a>
                 <a href="#">KR / EN</a>

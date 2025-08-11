@@ -28,17 +28,9 @@ function App() {
   },[]); */
   return (
     <>
-      {/* <BrowserRouter>
-        <Header />
-        <MainBg />
-        <ProductWrap1 />
-        <Ambassador />
-        <BandBanner />
-        <SaleProductWrap />
-        <LookBook />
-        <Footer />
-      </BrowserRouter> */}
-      <MainHome />
+      <Routes>
+        <Route path='/' element={<MainHome />}></Route>
+      </Routes>
     </>
   )
 }
