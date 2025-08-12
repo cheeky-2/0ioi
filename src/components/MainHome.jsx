@@ -8,7 +8,6 @@ import BandBanner from './BandBanner';
 import SaleProductWrap from './SaleProductWrap';
 import LookBook from './LookBook';
 import Footer from './Footer';
-import App from '../App';
 function MainHome(){
     useEffect(()=>{
         const aClick = (e)=>{

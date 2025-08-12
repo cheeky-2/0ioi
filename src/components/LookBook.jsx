@@ -15,8 +15,8 @@ function LookBook(){
             spaceBetween={30}
             loop={true}
             centeredSlides={true}
-            onSlideChange={() => console.log('slide changed')}
-            onSwiper={(swiper) => console.log(swiper)}
+            /* onSlideChange={() => console.log('slide changed')}
+            onSwiper={(swiper) => console.log(swiper)} */
             navigation
             >
                 <SwiperSlide><img src={esomImg} alt="이솜룩북" /></SwiperSlide>
